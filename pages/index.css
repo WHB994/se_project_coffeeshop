@@ -88,7 +88,7 @@
     font-family: "Noto Serif", "Times New Roman", serif;
 }
 
-.header_span-accent {
+.header__span-accent {
     display: block;
     font-family: "Noto Serif";
     font-style: italic;
