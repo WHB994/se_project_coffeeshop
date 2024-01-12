@@ -101,11 +101,36 @@
           </div>  
           </div>
         </section>
-        <section class="reservation" id="book-a-table">content</section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
+          <form action="" class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">
+                Name *<input type="text" class="form__input" id="name" required placeholder="Name Surname">
+              </label>
+              <label for="number-of-guests" class="form__label">
+                Number of guests *<input type="number" class="form__input" id="number-of-guests" min="1" max="8" required placeholder="1-8">
+              </label>
+              <label for="date-and-time" class="form__label">
+                Date & time *
+                <input type="datetime-local" class="form__input">
+              </label>
+              <label for="email" class="form__label">
+                Your email *
+                <input type="email" class="form__input" id="your-email" required placeholder="email@email.com">
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="" class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form__checkbox">
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu">content</section>
         <section class="about" id="contacts">content</section>
       </main>
       <footer class="footer"></footer>
     </div>
   </body>
-</html> 
+</html>
